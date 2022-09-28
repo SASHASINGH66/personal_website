@@ -1,0 +1,28 @@
+h1{
+    font-size: large;
+    color: #985F6F;
+ 
+    
+}
+
+h2{
+    font-size: medium;
+    color: #519872;
+}
+   
+
+.proj{
+    border: 1px solid black;  
+    margin-left: 20em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    /* padding: 0vw;  */
+    padding-left: -15vw;
+    text-align: center;
+    padding-right: 15vw;
+    /* border: 1px solid blue;
+    box-sizing: border-box;
+    height: calc(140px -2em);
+    width: calc(50%-2em);
+    margin:0.5em; */
+}

@@ -1,0 +1,16 @@
+#proj{
+    font-size: x-large;
+    color: #1F5673;
+}
+
+.projs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 0vw;
+    /* border: 1px solid-red;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px; */
+}

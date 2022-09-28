@@ -1,0 +1,43 @@
+.home-section {
+    text-align: left;
+  }
+  
+  .text{
+    margin-right: 30px;
+    position: relative;
+    top: 200px;
+  }
+  
+  .mypic {
+    height: 40vmin;
+    pointer-events: none;
+    display: flex;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 100px;
+  }
+  
+  .hi{
+    text-align: left;
+    font-family: inherit;
+    font-weight: bold;
+    color: #1F5673;
+    font-size: larger;
+  }
+  
+  .passions{
+    text-align: left;
+    font-family: inherit;
+    color: #519872;
+    font-weight: 500;
+  }
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
