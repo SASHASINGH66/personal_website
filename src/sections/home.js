@@ -17,8 +17,6 @@ function Home() {
          
           <img src={require("./homepage.jpg")} className="mypic" alt="my_pic" />
         </header>
-      
-  
       </div>
     );
   }

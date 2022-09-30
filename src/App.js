@@ -1,23 +1,20 @@
 import './App.css';
-import Project from './sections/projects'
 import Home from './sections/home'
 import Music from './sections/music'
 import Experience from './sections/experiences';
+import Contact from './sections/contact';
+import Project from './sections/projects';
 
 
 function App() {
   return (
-  <div class="App">
-
-
+  <div className="App">
     <Home  />
     <Experience  />
     <Project  />
     <Music  />
-  
-    
-
-    </div>
+    <Contact  />
+  </div>
   );
 }
 

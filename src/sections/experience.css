@@ -1,10 +1,12 @@
 .experiences-section{
     background-color: #DCCDE8;
     text-align: left;
+    margin-bottom: 15vw;
 }
 
 #myexp{
-    font-size: x-large;
+    font-size: xx-large;
     color: #1F5673;
-    padding-left: 300px;
+    padding-left: 20vw;
 }
+

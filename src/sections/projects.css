@@ -1,16 +1,23 @@
-#proj{
-    font-size: x-large;
-    color: #1F5673;
+.projects-section{
+    background-color: #DCCDE8;
+    margin-bottom: 15vw;
+    margin-left: 20vw;
 }
 
-.projs{
-    display: flex;
+
+.kids{
+    /* display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    width: 0vw;
-    /* border: 1px solid-red;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    width: 320px; */
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    gap: 20px;
+    column-gap: unset;
+
+   
+}
+
+#head{
+    color: #1F5673;
+    font-size: xx-large;
 }
