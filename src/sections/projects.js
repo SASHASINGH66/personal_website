@@ -18,7 +18,7 @@ export default function Project(){
         players alternate turns trying to be the 
         first to end up with some number of total 
         points"  />
-        <Proj header="Autocorrect and Typing Speed" description="Developed a program which 
+        <Proj header="autocorrect and typing speed" description="Developed a program which 
         implemented autocorrect and measured typing 
         speed using abstraction, recursion, string 
         and list manipulation"  />

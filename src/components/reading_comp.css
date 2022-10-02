@@ -1,0 +1,26 @@
+.read{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5vw;
+    align-items: center;
+}
+
+.reading-component{
+    padding-bottom: 1vw;
+}
+
+#book-title{
+    color: #985F6F;
+    font-size: x-large;
+}
+
+#book-desc{
+    color: #519872;
+    font-size: large;
+    background-color: #D9D9D9;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 15px;
+
+}
