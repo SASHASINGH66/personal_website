@@ -36,7 +36,26 @@
     font-family: inherit;
     color: #519872;
     font-weight: 500;
+    border-right: 2px solid #1F5673;
+    overflow: hidden;
+    white-space: nowrap;
   }
+
+  .anim-typewriter{
+    animation: typewriter 4s steps(22) 0.5s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+
+  @keyframes typewriter{
+    from{width: 0%;}
+    to{width: 75vw; border-right:0px;}
+  }
+
+  @keyframes blinkTextCursor{
+    from {border-right-color: rgba(0,0,0,0.75);}
+    to{border-right-color: transparent;}
+  }
+  
   .App-header {
     min-height: 100vh;
     display: flex;

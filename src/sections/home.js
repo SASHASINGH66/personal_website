@@ -10,7 +10,7 @@ function Home() {
             heyyy, i'm sasha. 
           </p>
           
-          <p className = 'passions'>
+          <p className = 'passions anim-typewriter'>
             i like music, running, coffee, and using tech for social good!
           </p>
           </div>
