@@ -1,22 +1,53 @@
-#pos{
-    font-size: x-large;
-    color: #985F6F;
-    text-align: left;
-
+#pos {
+  font-size: large;
+  color: #985f6f;
+  text-align: center;
 }
 
-#date{
-    font-size: large;
-    color: #519872;
-    text-align: left;
-   
+.desc {
+  width: 16vw;
+  height: 16vh;
+  background-color: #d9d9d9;
+  border-radius: 100px;
+  padding-top: 5vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-bottom: 15vh;
 }
 
-.exp{
-    padding-left: 20vw;
+.header {
+  padding-top: 5vh;
+  width: 16vw;
+  height: 16vh;
+  background-color: #d9d9d9;
+  border-radius: 100px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-bottom: 15vh;
 }
 
-.border{
-    border-bottom: 1px solid #1F5673;
-    margin-right: 20vw;
+#date {
+  font-size: x-large;
+  color: #519872;
+  text-align: center;
+}
+
+#company {
+  margin-top: 2vh;
+  font-size: x-large;
+  color: #1e1e24;
+  text-align: center;
+}
+
+.exp {
+  padding-left: 20vw;
+}
+
+.exp.align-right {
+  margin-left: 100%;
+}
+
+.border {
+  border-bottom: 1px solid #1f5673;
+  margin-right: 20vw;
 }

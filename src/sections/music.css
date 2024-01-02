@@ -1,29 +1,27 @@
-.links{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 300px;
-    color: #519872;
-    font-size: large;
-    margin-bottom: 1vw;
+.links {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 300px;
+  color: #519872;
+  font-size: large;
+  margin-bottom: 1vw;
 }
 
-
-#head-music{
-    color: #1F5673;
-    font-size: xx-large;
-    margin-left: 20vw;
+#head-music {
+  color: #1f5673;
+  font-size: xx-large;
+  margin-left: 20vw;
 }
 
-
-.music-section{
-    background-color: #DCCDE8;
-    margin-bottom: 15vw;
-  }
-
-.maroon{
-    font-size: x-large;
-    color: #985F6F;
-    padding-left: 20vw;
+.music-section {
+  background-color: #dccde8;
+  margin-bottom: 70vh;
+  margin-top: 10vh
 }
 
+.maroon {
+  font-size: x-large;
+  color: #985f6f;
+  padding-left: 20vw;
+}

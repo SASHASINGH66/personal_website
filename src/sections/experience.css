@@ -1,12 +1,33 @@
-.experiences-section{
-    background-color: #DCCDE8;
-    text-align: left;
-    margin-bottom: 15vw;
+.experiences-section {
+  background-color: #dccde8;
+  text-align: left;
+  margin-bottom: 15vw;
+  margin-top: 10vh;
 }
 
-#myexp{
-    font-size: xx-large;
-    color: #1F5673;
-    padding-left: 20vw;
+.experiences-boxes {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20vw;
 }
 
+.experiences-container-first {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.experiences-container-second {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 15vw;
+}
+
+#myexp {
+  font-size: xx-large;
+  color: #1f5673;
+  margin-left: 20vw;
+  margin-bottom: 10vh;
+}

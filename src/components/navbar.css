@@ -1,0 +1,11 @@
+.navbar-class {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vh;
+}
+
+.link {
+  margin-left: 3vw;
+  font-size: x-large;
+  color: #1f5673;
+}

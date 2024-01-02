@@ -1,8 +1,9 @@
-.reading-section{
-    margin-left: 20vw;
-    margin-bottom: 15vw;
+.reading-section {
+  margin-left: 20vw;
+  margin-bottom: 70vh;
+  margin-top: 10vh;
 }
 
-#heading-book{
-    color: #1F5673;
+#heading-book {
+  color: #1f5673;
 }
