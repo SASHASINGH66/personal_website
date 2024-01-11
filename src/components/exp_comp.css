@@ -2,25 +2,26 @@
   font-size: large;
   color: #985f6f;
   text-align: center;
+  margin-top: 4vh;
 }
 
 .desc {
-  width: 16vw;
-  height: 16vh;
+  width: 23vw;
+  height: 23vh;
   background-color: #d9d9d9;
-  border-radius: 100px;
-  padding-top: 5vh;
+  border-radius: 20px;
+  padding-top: 1vh;
   padding-left: 2vw;
   padding-right: 2vw;
   margin-bottom: 15vh;
 }
 
 .header {
-  padding-top: 5vh;
-  width: 16vw;
-  height: 16vh;
+  padding-top: 1vh;
+  width: 23vw;
+  height: 23vh;
   background-color: #d9d9d9;
-  border-radius: 100px;
+  border-radius: 20px;
   padding-left: 2vw;
   padding-right: 2vw;
   margin-bottom: 15vh;
@@ -29,14 +30,13 @@
 #date {
   font-size: x-large;
   color: #519872;
-  text-align: center;
+  text-align: left;
 }
 
 #company {
-  margin-top: 2vh;
   font-size: x-large;
   color: #1e1e24;
-  text-align: center;
+  text-align: left;
 }
 
 .exp {
@@ -51,3 +51,14 @@
   border-bottom: 1px solid #1f5673;
   margin-right: 20vw;
 }
+
+/*.moving-component {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.moving-component.visible {
+  transform: translateX(0);
+  opacity: 1;
+}*/

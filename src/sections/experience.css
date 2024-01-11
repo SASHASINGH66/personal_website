@@ -11,6 +11,9 @@
   margin-left: 20vw;
 }
 
+.top-part {
+  display: flex;
+}
 .experiences-container-first {
   display: flex;
   flex-direction: column;
@@ -18,11 +21,41 @@
 }
 
 .experiences-container-second {
-  margin-top: 20vh;
+  margin-left: 1vw;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-left: 15vw;
+}
+
+.exp_images_left {
+  /*transform: translateX(100%);*/
+  opacity: 1;
+  /*transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;*/
+  border-radius: 20px;
+  width: 20vw;
+  height: 20vh;
+  margin-bottom: 15vh;
+}
+
+.exp_images_right {
+  /*transform: translateX(100%);*/
+  opacity: 1;
+  /*transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;*/
+  border-radius: 20px;
+  width: 20vw;
+  height: 20vh;
+  margin-bottom: 15vh;
+  margin-left: 3vw;
+}
+
+.exp_images_left.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.exp_images_right.visible {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 #myexp {
@@ -30,4 +63,14 @@
   color: #1f5673;
   margin-left: 20vw;
   margin-bottom: 10vh;
+}
+
+.exp_left {
+  display: flex;
+  flex-direction: row;
+}
+
+.exp_right {
+  display: flex;
+  flex-direction: row;
 }
